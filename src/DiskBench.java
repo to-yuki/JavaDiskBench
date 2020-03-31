@@ -14,10 +14,10 @@ class DiskBench {
         System.exit(-1);
     }
   
-    char c = '‚ ';
+    char c = 'ã‚';
     
     int i = 51;
-    long size = 25000; //Å‘å‘‚«‚İ‰ñ”
+    long size = 25000; //æœ€å¤§æ›¸ãè¾¼ã¿å›æ•°
     if(args.length == 2){
       try {
         size = Integer.parseInt(args[1]);
@@ -28,7 +28,7 @@ class DiskBench {
     }
     
     long count = 0;
-    char[] buf = new char[32768]; //1ƒ‹[ƒv‘‚«‚İƒf[ƒ^
+    char[] buf = new char[32768]; //1ãƒ«ãƒ¼ãƒ—æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
      Random rnd = new Random();
      
      long start = System.currentTimeMillis();
